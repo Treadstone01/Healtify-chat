@@ -1,7 +1,7 @@
 # End-to-end-Medical-Chatbot-using-Llama2
 LinkedIn: https://www.linkedin.com/in/sourav-samanta3/
 
-# Description for US Visa Approval Prediction for Machine Learning Model - MLOps Project:
+# Description for  End-to-end-Medical-Chatbot-using-Llama2 - MLOps Project:
 
 The End-to-End Medical Chatbot using Llama2 project aims to develop a generative AI chatbot that can accurately interact with users' medical queries and provide solutions. This project adopts a modular coding approach, leveraging various technologies to build an end-to-end solution. The primary technologies used in this project include:
 🐍 Python: Python, a versatile and widely-used programming language for machine learning, is employed for data preprocessing, feature engineering, and model development.
