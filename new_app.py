@@ -88,8 +88,8 @@ def chat():
         msg = request.form["msg"]
         print(f"User input: {msg}")
         
-        # Use `invoke` instead of `__call__`
-        result = qa.invoke({"query": msg})
+        # Use the __call__ method instead of invoke
+        result = qa({"query": msg})
         
         # Check if result contains the "result" key
         if "result" in result:
@@ -106,7 +106,3 @@ def chat():
     except Exception as e:
         print(f"Error: {e}")
         return jsonify({"error": "Something went wrong!"}), 500
-
-# Run the app
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=8080, debug=True)
