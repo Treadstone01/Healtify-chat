@@ -60,7 +60,7 @@ PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 
-### Download the quantize model from the link provided in model folder & keep the model in the model directory:
+### You don't have to download the model, everything has been redesigned to work with HF Inference endpoints 
 
 ```ini
 ## Download the Llama 2 Model:
